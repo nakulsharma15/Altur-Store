@@ -23,11 +23,7 @@
     background-color: var(--gray-200);
 }
 
-.slider-input {
-    width: 12rem;
-}
-
-.price-range {
+.slider-input , .price-range {
     width: 12rem;
 }
 
