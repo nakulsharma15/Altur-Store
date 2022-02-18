@@ -1,1 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <link rel="stylesheet" href="../stylesheets/products.css">
+
+    <title>Altur Store | Products</title>
+</head>
+
+<body>
+
+    <nav class="flex-center-sp-ev">
+        <a href="../index.html">
+            <h1 class="text-xl">Altur Store</h1>
+        </a>
+
+        <div>
+            <input class="text-m search-bar" placeholder="Search" type="text">
+            <i class="search-icon fas fa-search"></i>
+        </div>
+
+        <div class="ecom-icon flex-align-center">
+
+            <div class="links text-m">
+                <a class="log-btn" href="signup.html"> Signup </a>
+                <a class="log-btn" href="login.html"> Login </a>
+
+            </div>
+            <a href="wishlist.html"><i class="nav-icon wishlist-icon fas fa-heart"></i></a>
+            
+            <div class="top-right badge-style badge-val"> 6 </div>
+
+            <i class="nav-icon fas fa-shopping-cart"></i>
+            <div class="top-right badge-style badge-val"> 2 </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <aside class="filters flex-column">
+            <div class="filters-header flex-center-sb">
+                <p class="text-l bold">Filters</p>
+                <button class="btn secondary-btn filter-clear-btn">Clear</button>
+            </div>
+    
+            <div class="price-filter flex-column">
+                <p class="category-header text-l bold">Price</p>
+    
+                <div class="prices flex-center-column">
+                    <input type="range" min="0" max="100" value="50" class="slider-input" />
+                    <div class="price-range flex-sb">
+                        <p>₹1000</p>
+                        <p>₹5000</p>
+                        <p>₹10000+</p>
+                    </div>
+                </div>
+               
+            </div>
+    
+            <div class="category-filter flex-column-j-c">
+        
+                <p class="category-header text-l bold">Category</p>
+                <div class="category">
+                    <input type="checkbox" name="category" id="apple">
+                    <label for="apple">Apple</label>    
+                </div>
+    
+                <div class="category">
+                    <input type="checkbox" name="category" id="motorola">
+                    <label for="motorola">Motorola</label>
+                </div>
+    
+                <div class="category">
+                    <input type="checkbox" name="category" id="oneplus">
+                    <label for="oneplus">OnePlus</label>
+                </div>
+    
+                <div class="category">
+                    <input type="checkbox" name="category" id="oppo">
+                    <label for="oppo">Oppo</label>
+                </div>
+    
+                <div class="category">
+                    <input type="checkbox" name="category" id="samsung">
+                    <label for="samsung">Samsung</label>
+                </div>
+    
+                <div class="category">
+                    <input type="checkbox" name="category" id="vivo">
+                    <label for="vivo">Vivo</label>
+                </div>
+    
+                <div class="category">
+                    <input type="checkbox" name="category" id="xiaomi">
+                    <label for="xiaomi">Xiaomi</label>
+                </div>       
+               
+            </div>
+    
+            <div class="rating-filter">
+    
+                <p class="category-header text-l bold">Ratings</p>
+    
+                <div class="category">
+                    <input type="radio" name="rating" id="four-above">
+                    <label for="four-above">4 Stars & above</label>    
+                </div>
+    
+                <div class="category">
+                    <input type="radio" name="rating" id="three-above">
+                    <label for="three-above">3 Stars & above</label>
+                </div>
+    
+                <div class="category">
+                    <input type="radio" name="rating" id="two-above">
+                    <label for="two-above">2 Stars & above</label>
+                </div>
+    
+                <div class="category">
+                    <input type="radio" name="rating" id="one-above">
+                    <label for="one-above">1 Star & above</label>
+                </div>
+    
+            </div>
+    
+            <div class="sort-filter">
+    
+                <p class="category-header text-l bold">Sort by</p>
+    
+                <div class="category">
+                    <input type="radio" name="sort" id="low-to-high">
+                    <label for="low-to-high">Price - Low to high</label>
+                </div>
+    
+                <div class="category">
+                    <input type="radio" name="sort" id="high-to-low">
+                    <label for="high-to-low">Price - High to Low</label>
+                </div>
+            </div>         
+    
+        </aside>
+    
+        <div class="product-list flex-sa">
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/mi11tpro-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Xiaomi 11T Pro 5G</h2>
+                    <p>₹41,999 <s class="text-s">₹52,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">21% off</div>
+                <div class="card-info">
+                    Xiaomi 11T Pro 5G Hyperphone (Celestial Magic, 8GB RAM, 256 GB Storage) | SD 888 5G | 120Hz True 10-bit AMOLED Display | 120 W HyperCharge
+                    
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/iphone12-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Apple iPhone 12</h2>
+                    <p>₹55,999 <s class="text-s">₹65,900</s> </p>
+                </div>
+                <div class="special-badge text-overlay">15% off</div>
+                <div class="card-info">
+                    Apple iPhone 12 (White, 64 GB Storage) |  A14 Bionic chip | Ceramic Shield | IP68 Water Resistance | 
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/m52-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Samsung Galaxy M52 5G</h2>
+                    <p>₹24,499 <s class="text-s">₹34,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">29% off</div>
+                <div class="card-info">
+                    Samsung Galaxy M52 5G (Blazing Black, 12GB RAM, 256 GB Storage) |  Snapdragon 778G | 120Hz sAMOLED Display
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/zfold3-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                    <p>₹1,27,499 <s class="text-s">₹1,49,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">15% off</div>
+                <div class="card-info">
+                    Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage) with No Cost EMI/Additional Exchange Offers
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/m52-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Samsung Galaxy M52 5G</h2>
+                    <p>₹24,499 <s class="text-s">₹34,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">29% off</div>
+                <div class="card-info">
+                    Samsung Galaxy M52 5G (Blazing Black, 12GB RAM, 256 GB Storage) |  Snapdragon 778G | 120Hz sAMOLED Display
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/mi11tpro-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Xiaomi 11T Pro 5G</h2>
+                    <p>₹41,999 <s class="text-s">₹52,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">21% off</div>
+                <div class="card-info">
+                    Xiaomi 11T Pro 5G Hyperphone (Celestial Magic, 8GB RAM, 256 GB Storage) | SD 888 5G | 120Hz True 10-bit AMOLED Display | 120 W HyperCharge
+                    
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/iphone12-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Apple iPhone 12</h2>
+                    <p>₹55,999 <s class="text-s">₹65,900</s> </p>
+                </div>
+                <div class="special-badge text-overlay">15% off</div>
+                <div class="card-info">
+                    Apple iPhone 12 (White, 64 GB Storage) |  A14 Bionic chip | Ceramic Shield | IP68 Water Resistance | 
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/zfold3-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Samsung Galaxy Z Fold 3 5G</h2>
+                    <p>₹1,27,499 <s class="text-s">₹1,49,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">15% off</div>
+                <div class="card-info">
+                    Samsung Galaxy Z Fold 3 5G (Phantom Black, 12GB RAM, 256 GB Storage) with No Cost EMI/Additional Exchange Offers
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="card card-with-badge card-with-text-overlay">
+                <div class="card-img flex-justify-center">
+                    <img class="card-img flex-justify-center" src="../assets/mi11tpro-img.jpg" alt="Product">
+                </div>
+                <div class="card-title">
+                    <h2 class="text-l">Xiaomi 11T Pro 5G</h2>
+                    <p>₹41,999 <s class="text-s">₹52,999</s> </p>
+                </div>
+                <div class="special-badge text-overlay">21% off</div>
+                <div class="card-info">
+                    Xiaomi 11T Pro 5G Hyperphone (Celestial Magic, 8GB RAM, 256 GB Storage) | SD 888 5G | 120Hz True 10-bit AMOLED Display | 120 W HyperCharge
+                    
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn btn primary-btn">Buy Now</button>
+                    <button class="cart-btn btn outline-secondary-btn icon-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    
+    </div>
+    
+    <div class="footer flex-center">
+        <p class="text-l bold">Made by <a href="https://www.linkedin.com/in/nakulsharma15"> Nakul Sharma</a></p>
+    </div>
+
+</body>
+
+</html>
