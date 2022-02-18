@@ -1,1 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 5rem;
+    width: 100%;
+    color: var(--white);
+    background-color: var(--blue-500);
+}
+
+.log-btn {
+    background-color: transparent;
+    font-size: large;
+    margin-right: 1rem;
+}
+
+.log-btn:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav .search-bar {
+    width: 20rem;
+}
+
+.fas:hover {
+    cursor: pointer;
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0rem 1rem;
+}
+
+.search-bar {
+    padding: 4px 8px;
+    width: 15rem;
+    border-radius: 4px;
+    border-color: transparent;
+    margin-right: 0;
+}
+
+.search-icon {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.badge-val {
+    top: -1rem;
+    right: 1.5rem;
+}
+
+.hero-section {
+    max-height: 40rem;
+    margin: 1.5rem 0rem;
+    padding: 1rem 0rem;
+}
+
+.shop-btn {
+    position: relative;
+    top: -27rem;
+    left: 37rem;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.deal-text {
+    margin: 1.5rem;
+}
+
+.cart-btn {
+    background-color: var(--white);
+}
+
+.cart-btn:hover {
+    background-color: var(--orange-600);
+}
+
+.icon-btn {
+    margin-right: 0.5rem;
+    margin-left: 0.25rem;
+}
+
+.footer {
+    color: var(--white);
+    background-color: var(--blue-600);
+    height: 5rem;
+    margin-top: 1rem;
+}
+
 
