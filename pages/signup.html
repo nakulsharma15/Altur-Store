@@ -6,12 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://altur-ui.netlify.app/stylesheets/main.css">
     <link rel="stylesheet" href="../style.css">
 
     <link rel="stylesheet" href="../stylesheets/signup.css">
 
-    <title>Altur Store | Signup</title>
+    <title>Signup | Altur Store</title>
 </head>
 
 <body>
@@ -45,28 +44,28 @@
 
         <h2 class="text-xl">Sign up</h2>
         <div class="signup-form flex-center-column">
-            <div>
-                <p>Full Name:</p>
+            <div class="flex-column">
+                <label for="name">Full Name:</label>
                 <input class="signup-input" type="text" id="name">
             </div>
 
-            <div>
-                <p>Email: </p>
+            <div class="flex-column">
+                <label for="email">Email:</label>
                 <input class="signup-input" type="text" id="email">
             </div>
     
-            <div>
-                <p>Password: </p>
+            <div class="flex-column">
+                <label for="password">Password:</label>
                 <input class="signup-input" type="password" id="password">
             </div>
     
-            <div>
-                <p>Confirm Password: </p>
-                <input class="signup-input" type="password" id="password">
+            <div class="flex-column">
+                <label for="confirm-password">Confirm Password:</label>
+                <input class="signup-input" type="password" id="confirm-password">
             </div>
 
             <div>
-                <input type="checkbox" form="confirm">
+                <label type="checkbox" for="confirm">
                 <label for="confirm">I accept all terms & conditions</label>
             </div>
 
