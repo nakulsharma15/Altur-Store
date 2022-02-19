@@ -1,0 +1,12 @@
+.wishlist-container {
+    gap: 2rem;
+}
+
+.wishlist-container h1 {
+    margin-top: 2.5rem;
+}
+
+.wishlist-products {
+    gap: 3rem;
+}
+
