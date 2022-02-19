@@ -1,0 +1,19 @@
+.container {
+    margin-top: 2rem;
+}
+
+.signup-form {
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+input {
+    border-radius: 5px;
+    padding: 7px;
+    width: 18rem;
+}
+
+input[type="checkbox"] {
+    width: max-content;
+}
+
