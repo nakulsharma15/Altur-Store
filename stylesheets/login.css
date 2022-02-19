@@ -1,0 +1,20 @@
+.login-header {
+    margin-top: 2rem;
+}
+
+.login-form {
+    margin: 2.5rem 0rem;
+    background-color: var(--white);
+    padding: 5rem;
+    gap: 1rem;
+}
+
+.login-input {
+    width: 20rem;
+    padding: 0.5rem;
+}
+
+.forgot-password {
+    color: var(--primary-color);
+    margin-left: 2.75rem;
+}
