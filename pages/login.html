@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="../stylesheets/main.css">
 
-    <title>Signup | Altur Store</title>
+    <title>Login | Altur Store</title>
 </head>
 
 <body>
@@ -24,9 +24,8 @@
         </div>
 
         <div class="ecom-icon flex-align-center">
-
             <div class="links text-m">
-                <a class="log-btn" href="login.html"> Login </a>
+                <a class="log-btn" href="signup.html"> Signup </a>
             </div>
 
             <a href="wishlist.html"><i class="nav-icon wishlist-icon fas fa-heart"></i></a>
@@ -40,34 +39,25 @@
 
     <div class="container flex-center-column">
 
-        <h2 class="text-xl">Sign up</h2>
-        <div class="signup-form flex-center-column">
-            <div class="flex-column">
-                <label for="name">Full Name:</label>
-                <input class="signup-input" type="text" id="name">
-            </div>
+        <h2 class="text-xl login-header">Login</h2>
+        <div class="login-form flex-center-column box-shadow">
 
             <div class="flex-column">
                 <label for="email">Email:</label>
-                <input class="signup-input" type="text" id="email">
-            </div>
-    
+                <input class="login-input" type="text" id="email">
+            </div>    
             <div class="flex-column">
                 <label for="password">Password:</label>
-                <input class="signup-input" type="password" id="password">
+                <input class="login-input" type="password" id="password">
             </div>
-    
-            <div class="flex-column">
-                <label for="confirm-password">Confirm Password:</label>
-                <input class="signup-input" type="password" id="confirm-password">
-            </div>
-
             <div>
-                <input type="checkbox" id="confirm">
-                <label for="confirm">I accept all terms & conditions</label>
+                <input type="checkbox" id="remember">
+                <label for="confirm">Remember me</label>
+                
+                <span class="forgot-password">Forgot Password?</span>
             </div>
 
-            <a href="../index.html"><button class="btn primary-btn">Sign up</button></a>
+            <a href="../index.html"><button class="btn primary-btn">Login</button></a>
         </div>
     
     </div>  
